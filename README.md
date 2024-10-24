@@ -12,15 +12,15 @@
 
 oneAPIを使ってコンパイル
 
----bash
+```bash
 mpiifx -O3 -xHost pi3.f -o pi3.exe
----
+```
 
 wallclock.cはサブルーチンなので、オブジェクトを作ります。
 
----bash
+```bash
 icx -o -O3 wallclock.c
----
+```
 
 # Author
 
